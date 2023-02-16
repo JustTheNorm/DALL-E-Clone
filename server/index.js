@@ -6,7 +6,7 @@ import connectDB from './mongodb/connect.js';
 import postRoutes from './routes/postRoutes.js';
 import dalleRoutes from './routes/dalleRoutes.js';
 
-
+const dotenv = require('dotenv')
 dotenv.config();
 
 const app = express();
